@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Raleway:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1A1918;
+    /* background: white; */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 7px 100px;
+    background-color: #78B9F5;
+    font-family: 'Kanit', sans-serif;
+}
+
+header .logo {
+    position: relative;
+    font-weight: 200;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.6s;
+    font-family: 'Kanit', sans-serif;
+}
+
+header .logo:hover {
+    color: blue;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+header ul li a:hover {
+    color: blue;
+}
+
+.contact_store {
+    position: relative;
+    margin: 0 3px;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    /* font-weight: 500px; */
+    transition: 0.6s;
+}
+
+.container_txt {
+    max-width: 960px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: flex-end;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.contact_container {
+    max-width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.contact_me svg {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0px 5px; 
+}
+
+.footer__container {
+    max-width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;   
+}
+
+hr  {
+    font-size: 1px;
+    color: white;
+}
